@@ -34,10 +34,9 @@ jobs:
 
     - name: Import Label
       run: GO111MODULE=off go get github.com/baker371/github-labeller
+    
+    - name: Apply Label
+      run: GITHUB_TOKEN=${{ secrets.ORG_SECRET }} github-labeller
         
-    - shell: bash
-      env:
-        SUPER_SECRET: ${{ secrets.ORG_SECRET }}
-      run: |
-        GITHUB_TOKEN="$SUPER_SECRET" github-labeller TeraTech-Uganda
+
         
