@@ -1,4 +1,6 @@
 name: Label Sync
+env:
+   GITHUB_TOKEN: ${{ secrets.ORG_SECRET }}
 
 on:
   push:
