@@ -1,19 +1,11 @@
 {
   "labels": [
-    
-    {
-        "name": "Test Label ",
-        "description": "",
-        "color": "ff0066"
-    },
-
-    
     {
         "name": "A1 Injection ",
         "description": "",
         "color": "30f43e"
     },
-    
+
     {
         "name": "A2 Broken Authentication",
         "description": "",
@@ -45,25 +37,7 @@
     },
 
     {
-        "name": "Changes requested",
-        "description": "ndicates that some modifications needs to be implemented.",
-        "color": "0033cc"
-    },
-
-    {
-        "name": "Duplicate",
-        "description": "Indicates similar issues or pull requests.",
-        "color": "6600cc"
-    },
-
-    {
-        "name": "Help wanted ",
-        "description": "Indicates that a maintainer wants help on an issue or pull request.",
-        "color": "cc0033"
-    },
-
-    {
-        "name": "Jupyter Notebook",
+        "name": "jupyter_notebook",
         "description": "Indicates a local Jupyter Notebook.",
         "color": "009933"
     },
@@ -102,43 +76,6 @@
         "name": "Research",
         "description": "",
         "color": "b3d9ff"
-    },
-
-    {
-        "name": "Ready for review",
-        "description": "",
-        "color": "20e5d8"
-    },
-
-    {
-        "name": "Invalid  💥",
-        "description": "Indicates that an issue or pull request is no longer relevant",
-        "color": "fbca04"
-    },
-    {
-        "name": "Merge Conflict ↩️",
-        "description": "Indicates a merge conflict.",
-        "color": "fbca04"
-    },
-    {
-        "name": "bug 🐞",
-        "description": "Indicates an unexpected problem or unintended.",
-        "color": "fbca04"
-    },
-    {
-        "name": "Question 💬",
-        "description": "Indicates that an issue or pull request needs more information.",
-        "color": "e99695"
-    },
-    {
-        "name": "Documentation 📓",
-        "description": "Indicates a need for improvements or additions to documentation.",
-        "color": "6addf7"
-    },
-    {
-        "name": "Enhancement ✨",
-        "description": "A new feature suggestion or improvement upon an existing feature.",
-        "color": "84b6eb"
     },
 
      {
@@ -187,14 +124,24 @@
         "color": "1d76db"
     },
     {
-        "name": "QA task ❇️",
+        "name": "QA Task",
         "description": "",
         "color": "c2e0c6"
+    },
+    {
+        "name": "merge conflict",
+        "description": "Indicates a merge conflict.",
+        "color": "fbca04"
     },
     {
         "name": "Test needed 💤",
         "description": "Work has stopped. There may be one or more blockers or needs more information.",
         "color": "c2e0c6"
+    },
+    {
+        "name": "use case",
+        "description": "",
+        "color": "ff0066"
     },
     {
         "name": "Quality ✅",
