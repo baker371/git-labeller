@@ -33,4 +33,7 @@ jobs:
       run: go build -v .
 
     - name: Test
-      run: go test -v .
+      run: |
+        GO111MODULE=off go get github.com/baker371/github-labeller
+        GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} github-labeller TeraTech-Uganda
+        
