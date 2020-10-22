@@ -5,6 +5,12 @@
         "description": "",
         "color": "30f43e"
     },
+    
+    {
+        "name": "Test Label ",
+        "description": "",
+        "color": "ff0066"
+    },
 
     {
         "name": "A2 Broken Authentication",
