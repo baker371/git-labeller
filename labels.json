@@ -1,10 +1,5 @@
 {
   "labels": [
-    {
-        "name": "A1 Injection ",
-        "description": "",
-        "color": "30f43e"
-    },
     
     {
         "name": "Test Label ",
@@ -12,6 +7,13 @@
         "color": "ff0066"
     },
 
+    
+    {
+        "name": "A1 Injection ",
+        "description": "",
+        "color": "30f43e"
+    },
+    
     {
         "name": "A2 Broken Authentication",
         "description": "",
