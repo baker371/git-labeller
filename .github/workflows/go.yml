@@ -36,8 +36,8 @@ jobs:
       run: GO111MODULE=off go get github.com/baker371/github-labeller
         
     - shell: bash
-    env:
-      SUPER_SECRET: ${{ secrets.ORG_SECRET }}
+      env:
+        SUPER_SECRET: ${{ secrets.ORG_SECRET }}
       run: |
         GITHUB_TOKEN="$SUPER_SECRET" github-labeller TeraTech-Uganda
         
