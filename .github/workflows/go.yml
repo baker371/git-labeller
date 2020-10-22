@@ -36,9 +36,8 @@ jobs:
       run: GO111MODULE=off go get github.com/baker371/github-labeller
     
     - name: Apply Label
-      run: github-labeller TeraTech-Uganda
-      env:
-         GITHUB_TOKEN: ${{ secrets.ORG_SECRET }}
+      run: GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} github-labeller TeraTech-Uganda
+
         
 
         
