@@ -31,7 +31,7 @@ jobs:
 
     - name: Import Label
       run: |
-        git clone -b labels github.com/k8-proxy/k8-data-visualization
+        git clone -b labels https://github.com/k8-proxy/k8-data-visualization
         cd labels
       
     - name: Apply Label
