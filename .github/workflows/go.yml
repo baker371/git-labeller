@@ -26,16 +26,13 @@ jobs:
             dep ensure
         fi
 
-    - name: Build
-      run: go build -v .
-
     - name: Import Label
       run: |
         git clone https://github.com/k8-proxy/k8-data-visualization/
         cd k8-data-visualization
         git checkout labels
         cd labels
-        go build
+        go build -v .
       
     - name: Apply Label
       run: GITHUB_TOKEN=${{ secrets.MY_SECRET }} github-labeller TeraTech-Uganda
