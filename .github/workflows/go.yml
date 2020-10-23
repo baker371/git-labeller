@@ -1,9 +1,9 @@
 name: Label Sync
 
 on:
-  - push
-  - schedule:
-    - cron: "*60 * * **"
+  schedule:
+    - cron: '0 1-23 * * *'
+    - cron: '0 0 * * *'
 
 
 jobs:
