@@ -1,10 +1,10 @@
 name: Label Sync
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  - push
+  - schedule:
+    - cron: "*60 * * **"
+
 
 jobs:
 
