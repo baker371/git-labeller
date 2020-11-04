@@ -43,6 +43,8 @@ $ npm install -g github-label-sync
 $ github-label-sync --access-token xxxxxx --labels labels.yml myname/myrepo
 ```
 
+Note: Running this will delete all labels not in the yml file.
+
 ### Default Labels
 | Label                         | Description                                   |
 | ------                        | ------                                        |
