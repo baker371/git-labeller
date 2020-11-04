@@ -94,8 +94,11 @@ $ github-label-sync --access-token xxxxxx --labels labels.yml myname/myrepo
 
 [Github-labeller]:<https://github.com/displague/github-labeller>
 
+[GitHub Label Sync]:<https://github.com/Financial-Times/github-label-sync>
 
 
 ### Reference
 
 [Github-labeller]
+
+[GitHub Label Sync]
